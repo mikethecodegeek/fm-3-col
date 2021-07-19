@@ -1,0 +1,83 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display:grid; 
+    place-items:center;
+    min-height:100vh; 
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 75%;
+    color:hsla(0, 0%, 100%, 0.75);
+    padding: 40px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.card >p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    width: 100px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75) !important;
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+#card1 {
+    background-color: hsl(31, 77%, 52%);
+}
+#card1>button {
+    color:hsl(31, 77%, 52%);
+}
+
+
+#card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card2>button {
+    color:hsl(184, 100%, 22%);
+}
+
+#card3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#card3 >button {
+    color:hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        width: 90%;
+        flex-direction: row;
+    }
+   
+}
