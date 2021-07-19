@@ -12,6 +12,7 @@ body {
     width: 100%;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .card {
@@ -19,6 +20,7 @@ body {
     color:hsla(0, 0%, 100%, 0.75);
     padding: 40px 30px;
     font-family: 'Lexend Deca', sans-serif;
+    height: 280px;
     
 }
 
@@ -77,6 +79,7 @@ h2 {
 @media only screen and (min-width: 800px) {
     .container {
         width: 90%;
+        max-width: 1440px;
         flex-direction: row;
     }
    
